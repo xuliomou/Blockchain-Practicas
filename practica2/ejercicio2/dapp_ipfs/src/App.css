@@ -1,0 +1,117 @@
+body {
+  background: #1f2330;
+  color: #e8eaf0;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  font-size: 15px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.subtitulo,
+.nota {
+  color: #a4abc0;
+}
+
+code {
+  font-size: 13px;
+  word-break: break-all;
+}
+
+a {
+  color: #7fc8ff;
+}
+
+.tarjeta {
+  background: #2a2f40;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 6px 10px 6px 0;
+  border-bottom: 1px solid #3a4057;
+  vertical-align: top;
+}
+
+th {
+  color: #a4abc0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.acciones,
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.form input[type="text"] {
+  flex: 1;
+  min-width: 180px;
+}
+
+input,
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #4a5170;
+  background: #1f2330;
+  color: #e8eaf0;
+}
+
+.btn {
+  padding: 9px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4f8cff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn.peligro {
+  background: #d9534f;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.mensaje {
+  background: #333a52;
+  border-left: 4px solid #4f8cff;
+  padding: 10px 12px;
+  border-radius: 4px;
+  word-break: break-word;
+}
+
+.aviso {
+  background: #5a3a1a;
+  border-left: 4px solid #ffb04f;
+  padding: 10px 12px;
+  border-radius: 4px;
+}
